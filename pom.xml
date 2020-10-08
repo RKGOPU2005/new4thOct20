@@ -65,12 +65,12 @@
 	   <snapshotRepository>
 		  <id>sanpshot</id>
 		  <name>snapshots</name>
-		  <url>http://localhost:8082/artifactory/grk-snapshot/</url>
+		  <url>http://localhost:8082/artifactory/grk-normal/</url>
 	   </snapshotRepository> 
 		<repository>
 		  <id>central</id>
-		  <!--<url>http://localhost:8082/artifactory/grk-normal/</url>-->
-		  <url>http://localhost:8082/artifactory/grk-snapshot/</url>
+		  <url>http://localhost:8082/artifactory/grk-normal/</url>
+		  <!--<url>http://localhost:8082/artifactory/grk-snapshot/</url> -->
 	   </repository>  
 	</distributionManagement>
 </project>
